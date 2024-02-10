@@ -13,3 +13,8 @@ utils_v1.o: utils_v1.c utils_v1.h
 
 biblio.o: biblio.c biblio.h utils_v1.c utils_v1.h
 	cc $(CFLAGS) -c biblio.c
+
+
+clean: 
+	rm *.o
+	rm main
